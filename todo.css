@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100px;
+    background: radial-gradient(white,grey);
+    font-family: 'Noto Sans', sans-serif;
+}
+.wrapper{
+    width: 800px;
+    height: 650px;
+    margin: 50px auto;
+    border: solid 10px black;
+    border-radius: 50px;
+    background:white;
+}
+.header{
+    
+    font-size: 25px;
+    text-align: center;
+    color: red;
+    border-radius: 40px 40px 0px 0px ;
+    background-color: aqua;
+    border-bottom: solid 5px black; 
+}
+.list{
+    margin: 30px;
+    list-style: none;
+    font-size: 25px;
+    color: black;
+    
+    
+}
+span{
+    
+}
+.wrap_ul{
+    
+}
+
+input[type="checkbox"]{
+    position: relative;
+    float: right;
+    margin:8px;
+}
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+    opacity: .3;
+}
+
+
+
